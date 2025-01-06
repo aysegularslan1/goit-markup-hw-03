@@ -21,7 +21,7 @@ img {
   display: block;
 }
 
-.header {
+header {
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -171,7 +171,7 @@ header nav .nav-list:focus {
   padding: 120px 0;
 }
 
-.ot-ul-container {
+.ourteam-container {
   display: flex;
   gap: 24px;
 }
@@ -214,7 +214,7 @@ header nav .nav-list:focus {
   margin-bottom: 72px;
 }
 
-.op-ul-container {
+.port-ul-container {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
@@ -222,7 +222,7 @@ header nav .nav-list:focus {
   row-gap: 48px;
 }
 
-.op-list-container {
+.port-list-container {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   border-top-left-radius: 0px;
@@ -230,20 +230,56 @@ header nav .nav-list:focus {
   border-top-right-radius: 4px;
   border-bottom-left-radius: 4px;
 }
+.port-div {
+  padding: 32px 0;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
 
-.ot-div-container {
+.portfolio-title {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.portfolio-text {
+  text-align: center;
+
+}
+.ourteamdiv-container {
   padding: 32px 0;
 }
 
+.parag-container {
+  display: flex;
+  gap: 24px;
+}
+
+.parag-list-container {
+  width: calc((100% - 72px) / 4);
+}
 .footer {
   padding: 100px 0;
 }
 
-.f-div-container a {
+.footer a {
 display: inline-block;
 margin-bottom: 16px;
 }
 
-.f-div-container p {
+.footer p {
   max-width: 264px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
