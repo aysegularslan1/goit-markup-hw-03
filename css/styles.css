@@ -25,10 +25,6 @@ header {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.logonav-container {
-  display: flex;
-}
-
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -175,14 +171,7 @@ header nav .nav-list:focus {
   display: flex;
   gap: 24px;
 }
-.our-team-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
+
 .name {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
