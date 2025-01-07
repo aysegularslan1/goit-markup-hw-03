@@ -29,6 +29,7 @@ header {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
 }
 
 .nav-container {
@@ -172,9 +173,10 @@ header nav .nav-list:focus {
   gap: 24px;
 }
 
-.name {
+.li-tc-container {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .name-title {
@@ -211,6 +213,11 @@ header nav .nav-list:focus {
   row-gap: 48px;
 }
 
+.ot-ul-container {
+  display: flex;
+  gap: 24px;
+}
+
 .port-list-container {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
@@ -220,7 +227,7 @@ header nav .nav-list:focus {
   border-bottom-left-radius: 4px;
 }
 .port-div {
-  padding: 32px 0;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
