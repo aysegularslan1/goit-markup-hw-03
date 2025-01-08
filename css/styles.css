@@ -274,6 +274,10 @@ margin-bottom: 16px;
   max-width: 264px;
 }
 
+.footer-studio {
+display: inline-block;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -285,5 +289,7 @@ margin-bottom: 16px;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-  margin-bottom: 72px;
+ overflow: hidden;
 }
+  
+ 
