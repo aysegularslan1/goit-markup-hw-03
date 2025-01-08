@@ -46,8 +46,8 @@ header {
   gap: 40px;
 }
 
-.list-container {
-  padding: 24px 0;
+.header-container .container .nav-container .ul-container .list-container {
+padding: 24px 0;
 }
 
 .contact-container {
@@ -233,18 +233,16 @@ header nav .nav-list:focus {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+
+.port-div h3 {
   margin-bottom: 8px;
 }
 
-.portfolio-title {
+.portfolio-title, .portfolio-text {
   text-align: center;
-  margin-bottom: 8px;
 }
 
-.portfolio-text {
-  text-align: center;
-
-}
 .ourteamdiv-container {
   padding: 32px 0;
 }
@@ -289,7 +287,7 @@ display: inline-block;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
- overflow: hidden;
+  margin-bottom: 72px;
 }
   
  
